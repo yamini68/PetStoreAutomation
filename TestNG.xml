@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetSuite">
+    
+    <listeners>
+        <listener class-name="api.utlities.ExtentReportManager"/>
+    </listeners>
+    <test thread-count="5" name="PetStoreUserModule">
+        <classes>
+            <class name="api.test.Usertests"/>
+
+        </classes>
+    </test>
+
+    <test thread-count="5" name="PetStorePetModule">
+        <classes>
+            <class name="api.test.PetTests"/>
+
+        </classes>
+    </test>
+
+    <test thread-count="5" name="PetStoreStoreModule">
+        <classes>
+            <class name="api.test.StoreTests"/>
+
+        </classes>
+    </test>
+
+
+
+
+</suite>

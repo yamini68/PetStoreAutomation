@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-PetSuite" class="navigator-link">
+              <span class="suite-name border-passed">PetSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-PetSuite" class="navigator-link ">
+                    <span>D:\RestAssured Automation Framework\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-PetSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-PetSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-PetSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-PetSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-PetSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-PetSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PetSuite" class="hide-methods passed suite-PetSuite"> (hide)</a> <!-- hide-methods passed suite-PetSuite -->
+                      <a href="#" panel-name="suite-PetSuite" class="show-methods passed suite-PetSuite"> (show)</a> <!-- show-methods passed suite-PetSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-PetSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.PetTests" class="method navigator-link" hash-for-method="AddNewPetToStoreUsing_Post_Request">AddNewPetToStoreUsing_Post_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="DeleteOrder">DeleteOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.PetTests" class="method navigator-link" hash-for-method="DeletingThePet">DeletingThePet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="FindPurchaseOrderById_Get_Request">FindPurchaseOrderById_Get_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.PetTests" class="method navigator-link" hash-for-method="GetPetByID_Get_Request">GetPetByID_Get_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.PetTests" class="method navigator-link" hash-for-method="GetPetDetailsUsingStatus_GET_Request">GetPetDetailsUsingStatus_GET_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="PlaceAnOrderForThePetUsing_Post_Request">PlaceAnOrderForThePetUsing_Post_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.PetTests" class="method navigator-link" hash-for-method="UpdateTheExistingPetUsing_Put_Request">UpdateTheExistingPetUsing_Put_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.PetTests" class="method navigator-link" hash-for-method="UpdatepetUsingData_Post_Request">UpdatepetUsingData_Post_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.PetTests" class="method navigator-link" hash-for-method="UploadPetImageUsing_Post_Request">UploadPetImageUsing_Post_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.StoreTests" class="method navigator-link" hash-for-method="givesPetInventoriesUing_Get_Request">givesPetInventoriesUing_Get_Request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.Usertests" class="method navigator-link" hash-for-method="testDeleteUserByUername">testDeleteUserByUername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.Usertests" class="method navigator-link" hash-for-method="testPostUser">testPostUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.Usertests" class="method navigator-link" hash-for-method="testUpdateUserByUsername">testUpdateUserByUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.Usertests" class="method navigator-link" hash-for-method="testgetUserByUserName">testgetUserByUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PetSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PetSuite" class="panel PetSuite">
+          <div class="suite-PetSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.PetTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddNewPetToStoreUsing_Post_Request">
+                  </a> <!-- AddNewPetToStoreUsing_Post_Request -->
+                  <span class="method-name">AddNewPetToStoreUsing_Post_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeletingThePet">
+                  </a> <!-- DeletingThePet -->
+                  <span class="method-name">DeletingThePet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetPetByID_Get_Request">
+                  </a> <!-- GetPetByID_Get_Request -->
+                  <span class="method-name">GetPetByID_Get_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetPetDetailsUsingStatus_GET_Request">
+                  </a> <!-- GetPetDetailsUsingStatus_GET_Request -->
+                  <span class="method-name">GetPetDetailsUsingStatus_GET_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateTheExistingPetUsing_Put_Request">
+                  </a> <!-- UpdateTheExistingPetUsing_Put_Request -->
+                  <span class="method-name">UpdateTheExistingPetUsing_Put_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdatepetUsingData_Post_Request">
+                  </a> <!-- UpdatepetUsingData_Post_Request -->
+                  <span class="method-name">UpdatepetUsingData_Post_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadPetImageUsing_Post_Request">
+                  </a> <!-- UploadPetImageUsing_Post_Request -->
+                  <span class="method-name">UploadPetImageUsing_Post_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetSuite-class-passed -->
+          <div class="suite-PetSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.Usertests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByUername">
+                  </a> <!-- testDeleteUserByUername -->
+                  <span class="method-name">testDeleteUserByUername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser">
+                  </a> <!-- testPostUser -->
+                  <span class="method-name">testPostUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserByUsername">
+                  </a> <!-- testUpdateUserByUsername -->
+                  <span class="method-name">testUpdateUserByUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testgetUserByUserName">
+                  </a> <!-- testgetUserByUserName -->
+                  <span class="method-name">testgetUserByUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetSuite-class-passed -->
+          <div class="suite-PetSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.StoreTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteOrder">
+                  </a> <!-- DeleteOrder -->
+                  <span class="method-name">DeleteOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FindPurchaseOrderById_Get_Request">
+                  </a> <!-- FindPurchaseOrderById_Get_Request -->
+                  <span class="method-name">FindPurchaseOrderById_Get_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceAnOrderForThePetUsing_Post_Request">
+                  </a> <!-- PlaceAnOrderForThePetUsing_Post_Request -->
+                  <span class="method-name">PlaceAnOrderForThePetUsing_Post_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givesPetInventoriesUing_Get_Request">
+                  </a> <!-- givesPetInventoriesUing_Get_Request -->
+                  <span class="method-name">givesPetInventoriesUing_Get_Request</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetSuite-class-passed -->
+        </div> <!-- panel PetSuite -->
+        <div panel-name="test-xml-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\RestAssured Automation Framework\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PetSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;api.utlities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PetStoreUserModule&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.Usertests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PetStoreUserModule --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PetStorePetModule&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.PetTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PetStorePetModule --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PetStoreStoreModule&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.StoreTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PetStoreStoreModule --&gt;
+&lt;/suite&gt; &lt;!-- PetSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PetSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PetStoreUserModule (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PetStorePetModule (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PetStoreStoreModule (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PetSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PetSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PetSuite');
+function tableData_PetSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPostUser')
+data.setCell(0, 2, 'api.test.Usertests')
+data.setCell(0, 3, 4054);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUpdateUserByUsername')
+data.setCell(1, 2, 'api.test.Usertests')
+data.setCell(1, 3, 2496);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GetPetDetailsUsingStatus_GET_Request')
+data.setCell(2, 2, 'api.test.PetTests')
+data.setCell(2, 3, 2225);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UploadPetImageUsing_Post_Request')
+data.setCell(3, 2, 'api.test.PetTests')
+data.setCell(3, 3, 2136);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PlaceAnOrderForThePetUsing_Post_Request')
+data.setCell(4, 2, 'api.test.StoreTests')
+data.setCell(4, 3, 1682);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'UpdateTheExistingPetUsing_Put_Request')
+data.setCell(5, 2, 'api.test.PetTests')
+data.setCell(5, 3, 1638);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GetPetByID_Get_Request')
+data.setCell(6, 2, 'api.test.PetTests')
+data.setCell(6, 3, 1564);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'givesPetInventoriesUing_Get_Request')
+data.setCell(7, 2, 'api.test.StoreTests')
+data.setCell(7, 3, 1545);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DeleteOrder')
+data.setCell(8, 2, 'api.test.StoreTests')
+data.setCell(8, 3, 1532);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'UpdatepetUsingData_Post_Request')
+data.setCell(9, 2, 'api.test.PetTests')
+data.setCell(9, 3, 1528);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'FindPurchaseOrderById_Get_Request')
+data.setCell(10, 2, 'api.test.StoreTests')
+data.setCell(10, 3, 1496);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AddNewPetToStoreUsing_Post_Request')
+data.setCell(11, 2, 'api.test.PetTests')
+data.setCell(11, 3, 1358);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'DeletingThePet')
+data.setCell(12, 2, 'api.test.PetTests')
+data.setCell(12, 3, 1328);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testgetUserByUserName')
+data.setCell(13, 2, 'api.test.Usertests')
+data.setCell(13, 3, 1270);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDeleteUserByUername')
+data.setCell(14, 2, 'api.test.Usertests')
+data.setCell(14, 3, 1208);
+window.suiteTableData['PetSuite']= { tableData: data, tableDiv: 'times-div-PetSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-PetSuite">
+              </div> <!-- times-div-PetSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PetSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.Usertests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPostUser</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testgetUserByUserName</span>
+                <span class="method-start">4266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserByUsername</span>
+                <span class="method-start">5540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserByUername</span>
+                <span class="method-start">8037 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.PetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupPetData</span>
+                <span class="method-start">9593 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">UploadPetImageUsing_Post_Request</span>
+                <span class="method-start">9681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddNewPetToStoreUsing_Post_Request</span>
+                <span class="method-start">11820 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdateTheExistingPetUsing_Put_Request</span>
+                <span class="method-start">13181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetPetDetailsUsingStatus_GET_Request</span>
+                <span class="method-start">14822 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetPetByID_Get_Request</span>
+                <span class="method-start">17048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdatepetUsingData_Post_Request</span>
+                <span class="method-start">18614 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeletingThePet</span>
+                <span class="method-start">20144 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.StoreTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">PlaceAnOrderForThePetUsing_Post_Request</span>
+                <span class="method-start">21571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setupPetData</span>
+                <span class="method-start">21571 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">FindPurchaseOrderById_Get_Request</span>
+                <span class="method-start">23254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteOrder</span>
+                <span class="method-start">24753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givesPetInventoriesUing_Get_Request</span>
+                <span class="method-start">26286 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

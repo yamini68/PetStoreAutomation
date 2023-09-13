@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <Properties>
+        <Property name="basePath">./logs</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Console appender to print logs on the console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- File appender with rolling over based on log file size -->
+        <RollingFile name="RollingFile" fileName="${basePath}/automation.log"
+                     filePattern="${basePath}/automation-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="50MB" />
+            <DefaultRolloverStrategy max="10" />
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Logger for your application's package. Adjust if your package name changes. -->
+        <Logger name="api.test" level="DEBUG" additivity="false">
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- Root logger -->
+        <Root level="ERROR">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
+
